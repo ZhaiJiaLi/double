@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style:none;
+    font-family:"微软雅黑";
+    font-weight:normal;
+}
+
+
+/*banner部分*/
+.banner{
+    width: 1226px;
+    height:460px;
+    margin: 200px auto;
+    position:relative;
+    overflow: hidden;
+}
+.img-box{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.img-box li{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+}
+.img-box img{
+    width:100%;
+    height:100%;
+    display: block;
+
+}
+.aside{
+    width:234px;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.aside li{
+    width:100%;
+    height:42px;
+    font-size:14px;
+    line-height: 42px;
+}
+.aside li:first-child{
+    margin-top:20px;
+}
+.listarrow{
+    float:right;
+}
+.textList{
+    float:left;
+}
+.textList,.listarrow{
+    color:#fff;
+}
+.aside a {
+    display: block;
+    width:181px;
+    height:100%;
+    padding-left:29px;
+    padding-right:24px;
+}
+.aside li:hover{
+    background: #ff6700;
+}
+.pre{
+    width: 41px;
+    height:70px;
+    display: block;
+    position: absolute;
+    left:0;
+    bottom: 195px;
+    background-image: url("../img/icon-slides.png");
+    background-position: 83px 0;
+    z-index: 20;
+}
+.pre:hover{
+    background-position: 0px 0;
+}
+.next1{
+    width: 41px;
+    height:70px;
+    display: block;
+    position: absolute;
+    right:0px;
+    bottom: 195px;
+    background-image: url("../img/icon-slides.png");
+    background-position: 41px 0;
+    z-index:20;
+}
+.next1:hover{
+    background-position: 125px 0;
+}
+.cirfive{
+    width:90px;
+    height:10px;
+    position:absolute;
+    right:35px;
+    bottom:25px;
+    z-index: 20;
+}
+.cirfive li{
+    width:6px;
+    height:6px;
+    background: #92897c;
+    border-radius: 50%;
+    float:left;
+    border:2px solid #b3ada4;
+    margin-right:10px;
+}
+.cirfive .hot{
+    background: #B9E2E1;
+}
+.cirfive li:last-child{
+    margin-right:0;
+}
+.cirfive li:hover{
+    background: #B9E2E1;
+}
+
+
+
+
+
+
+
