@@ -23,7 +23,7 @@ window.onload=function () {
         now=next;
     }
 
-    let banner=document.querySelector(".banner");
+    let banner=document.querySelector(".banner")[0];
     console.log(banner);
     banner.onmouseenter=function () {
         clearInterval(t);
